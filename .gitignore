@@ -1,0 +1,21 @@
+# Dataset raw NYT (566 MB)
+covid-19-data/
+
+# Datos procesados del pipeline (parquet/Gold zone, 140 MB)
+data/processed/
+
+# Forecast futuro (CSV + PNGs individuales por estado)
+data/forecast_futuro/
+
+# Caché de Python y Spark
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Backups
+*.bak
+
+# Entornos virtuales
+venv/
+.env
